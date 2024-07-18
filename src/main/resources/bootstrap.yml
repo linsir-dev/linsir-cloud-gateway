@@ -1,0 +1,14 @@
+spring:
+  main:
+    allow-bean-definition-overriding: true
+    web-application-type: reactive
+  application:
+    name: linsir-gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+  profiles:
+    active: dev

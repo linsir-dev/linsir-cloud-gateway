@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        group: @config.group@
+        namespace: @config.namespace@
+        server-addr: @config.server-addr@
+        file-extension: yaml
+      discovery:
+        server-addr: @discovery.server-addr@
+        group: @config.group@
+        namespace: @discovery.namespace@
+      username: @config.username@
+      password: @config.password@
