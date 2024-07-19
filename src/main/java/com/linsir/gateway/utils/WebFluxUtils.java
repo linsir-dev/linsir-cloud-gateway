@@ -1,7 +1,7 @@
 package com.linsir.gateway.utils;
 
 import cn.hutool.json.JSONUtil;
-import com.linsir.core.code.BaseCode;
+import com.linsir.base.core.code.BaseCode;
 import org.springframework.core.io.buffer.DataBuffer;
 import org.springframework.core.io.buffer.DataBufferUtils;
 import org.springframework.http.HttpHeaders;

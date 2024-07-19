@@ -1,7 +1,7 @@
 package com.linsir.gateway.security;
 
-import com.linsir.core.util.JSON;
-import com.linsir.core.vo.Result;
+import com.linsir.base.core.util.JSON;
+import com.linsir.base.core.vo.Result;
 import org.springframework.core.io.buffer.DataBuffer;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;

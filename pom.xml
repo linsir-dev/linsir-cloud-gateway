@@ -53,5 +53,38 @@
         </exclusion>
       </exclusions>
     </dependency>
+
+    <!--spring boot spring cloud spring-cloud-alibaba  三个版本需要统一-->
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-oauth2-resource-server</artifactId>
+    </dependency>
+    <!--spring boot spring cloud spring-cloud-alibaba  三个版本需要统一-->
+
+    <dependency>
+      <groupId>org.springframework.cloud</groupId>
+      <artifactId>spring-cloud-starter-security</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.cloud</groupId>
+      <artifactId>spring-cloud-starter-oauth2</artifactId>
+    </dependency>
+
+
+    <dependency>
+      <groupId>com.linsir</groupId>
+      <artifactId>linsir-base-api</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>io.jsonwebtoken</groupId>
+      <artifactId>jjwt</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.springframework.data</groupId>
+      <artifactId>spring-data-redis</artifactId>
+      <version>3.2.0</version>
+    </dependency>
   </dependencies>
 </project>

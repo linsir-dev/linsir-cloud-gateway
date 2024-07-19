@@ -1,6 +1,6 @@
 package com.linsir.gateway;
 
-import com.linsir.core.launch.LinsirApplication;
+import com.linsir.base.core.launch.LinsirApplication;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;

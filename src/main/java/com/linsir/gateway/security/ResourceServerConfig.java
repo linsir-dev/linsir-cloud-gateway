@@ -2,8 +2,8 @@ package com.linsir.gateway.security;
 
 import cn.hutool.core.codec.Base64;
 import cn.hutool.core.io.IoUtil;
-import com.linsir.cloud.gateway.utils.WebFluxUtils;
-import com.linsir.core.code.BaseCode;
+import com.linsir.gateway.utils.WebFluxUtils;
+import com.linsir.base.core.code.BaseCode;
 import jakarta.annotation.Resource;
 import lombok.AllArgsConstructor;
 import lombok.SneakyThrows;
